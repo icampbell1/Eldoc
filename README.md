@@ -10,9 +10,10 @@ Feedback & improvements
 -----------
 Code pull requests and/or e-mail are very welcome
 
-Licecning
+Licensing
 -----------
-Please refer to Licence.txt
+As with all of the code I publish on this account, this software is free software, licensed under the short, permissive MIT Licence. Under this licence, you're free to do whatever you like with the software as long as you acknowledge me as the author, and don't hold me liable if it all goes horribly wrong.
+You can find a good summary of the licence over at GitHub's site: www.choosealicense.com/licenses/mit
 
 Version Guide:
 -----------
@@ -44,8 +45,8 @@ Happy writing!
 Documentation
 -----------
 Pre-requisites:
-- An installed TeX distribution, e.g. MiKTeX for Windows (www.miktex.org) or 
-  TeX Live for Linux (www.tug.org/texlive)
+- An installed TeX distribution, e.g. MiKTeX (www.miktex.org) or 
+  TeX Live (www.tug.org/texlive)
 - A LaTeX editor, such as Texmaker (www.xm1math.net/texmaker)
 - Note that combined intallation packages exist, e.g. proTeXt, which combine
   the TeX distribution & editor (the editor is TeXStudio in this in the case of proTeXt) (www.tug.org/protext)
