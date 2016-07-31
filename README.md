@@ -2,7 +2,8 @@
 
 Eldoc is a **document template** for producing clean, elegant reports. Built with the [LaTeX] (www.latex-project.org) typesetting system, it's highly-configurable and doesn't require proprietary text-editing software.
 
-![Eldoc Screenshot](http://i.imgur.com/1saOy97.png)
+![Eldoc Screenshot](http://i.imgur.com/A3WtMHv.png)
+
 
 ## Why Use It?
 
@@ -12,9 +13,9 @@ and generate a neatly-formatted, beautiful report.
 
 ## Pre-requisites
 
-1. An installed TeX distribution, e.g. [MiKTeX] (www.miktex.org) or [TeX Live] (www.tug.org/texlive)
-1. A LaTeX editor, such as [Texmaker] (www.xm1math.net/texmaker)
-1. Note that combined intallation packages exist, e.g. [proTeXt] (www.tug.org/protext), which combine the TeX distribution & editor (the editor is TeXStudio in this in the case of proTeXt)
+1. An installed TeX distribution, e.g. [MiKTeX] (http://www.miktex.org) or [TeX Live] (www.tug.org/texlive)
+1. A LaTeX editor, such as [Texmaker] (http://www.xm1math.net/texmaker)
+1. Note that combined intallation packages exist, e.g. [proTeXt] (http://www.tug.org/protext), which combine the TeX distribution & editor (the editor is TeXStudio in this in the case of proTeXt)
 
 ## User Guide
 
@@ -29,7 +30,7 @@ and generate a neatly-formatted, beautiful report.
 
 ## Author
 
-Ian Campbell | [Github] (www.github.com/icampbell1) | [Twitter] (www.twitter.com/@Ian_Campbell1)
+Ian Campbell | [Github] (http://www.github.com/icampbell1) | [Twitter] (http://www.twitter.com/@Ian_Campbell1)
 
 ## Licensing
 
@@ -41,11 +42,11 @@ Code pull requests and/or e-mail are very welcome!
 
 ## Related Resources
 
-* [CTAN] (www.ctan.org) - for LaTeX package descriptions
-* [MiKTeX] (www.miktex.org) - Windows TeX distribution
-* [proTeXt] (www.tug.org/protext) - a MiKTeX-based TeX distribution for Windows, including an editor
-* [Texmaker] (www.xm1math.net/texmaker) - a TeX editor
-* [TeXstudio] (www.texstudio.org) - an alternative TeX editor
-* [LibreOffice] (www.libreoffice.org/discover/impress) - for creating vector images in PDF format
+* [CTAN] (http://www.ctan.org) - for LaTeX package descriptions
+* [MiKTeX] (http://www.miktex.org) - Windows TeX distribution
+* [proTeXt] (http://www.tug.org/protext) - a MiKTeX-based TeX distribution for Windows, including an editor
+* [Texmaker] (http://www.xm1math.net/texmaker) - a TeX editor
+* [TeXstudio] (http://www.texstudio.org) - an alternative TeX editor
+* [LibreOffice] (http://www.libreoffice.org/discover/impress) - for creating vector images in PDF format
 * [Powerpoint] (https://products.office.com/en-gb/powerpoint) - for creating vector images in PDF format
 
