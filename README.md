@@ -8,8 +8,8 @@ Eldoc is a **document template** for producing clean, elegant reports. Built wit
 ## Why Use It?
 
 The high-quality presentation of reports is paramount, regardless of what content you're providing. LaTeX provides a powerful system in which to create high-quality reports,
-but getting started with the typesetting system can be slow and confusing. This template solves that problem by providing a well-commented framework which you can expand, fill with your own content, 
-and generate a neatly-formatted, beautiful report.
+but getting started with the typesetting system can be slow and confusing. This template solves that problem by providing a well-commented framework which you can expand upon, fill with your own content, 
+and use to generate a neatly-formatted, beautiful report.
 
 ## Pre-requisites
 
