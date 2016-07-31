@@ -1,81 +1,51 @@
-Elegant LaTeX document template for reporting
+# Eldoc
 
-Contact
------------
-- Author = Ian Campbell
-- GitHub = www.github.com/icampbell1
-- Twitter = www.twitter.com/@Ian_Campbell1
+Eldoc is a **document template** for producing clean, elegant reports. Built with the [LaTeX] (www.latex-project.org) typesetting system, it's highly-configurable and doesn't require proprietary text-editing software.
 
-Feedback & improvements
------------
-Code pull requests and/or e-mail are very welcome
+![Eldoc Screenshot](http://i.imgur.com/g1nNf0I.png)
 
-Licensing
------------
-As with all of the code I publish on this account, this software is free software, licensed under the short, permissive MIT Licence. Under this licence, you're free to do whatever you like with the software as long as you acknowledge me as the author, and don't hold me liable if it all goes horribly wrong.
-You can find a good summary of the licence over at GitHub's site: www.choosealicense.com/licenses/mit
+## Why use it?
 
-Version Guide:
------------
-v1.0
-Baseline release
+The high-quality presentation of reports is paramount, regardless of what content you're providing. LaTeX provides a powerful system in which to create high-quality reports,
+but getting started with the typesetting system can be slow and confusing. This template solves that problem by providing a well-commented framework which you can expand, fill with your own content, 
+and generate a neatly-formatted, beautiful report.
 
-What is it?
------------
-Getting started with LaTeX can be confusing, and it's often much easier to begin with a code template than from
-scratch. This .tex file is one such template, orginally used for a PhD plan, now generalised & made available online. While 
-it doesn't inlcude every common LaTeX command, it aims to provide a well-commented framework which you can expand 
-to create your own neatly-formatted, highly-presentable document.
+## Pre-requisites
 
-If you're already proficient with a word-processing program, you may wonder why it might be beneficial to learn
-LaTeX. Here are some reasons:
+1. An installed TeX distribution, e.g. [MiKTeX] (www.miktex.org) or [TeX Live] (www.tug.org/texlive)
+1. A LaTeX editor, such as [Texmaker] (www.xm1math.net/texmaker)
+1. Note that combined intallation packages exist, e.g. [proTeXt] (www.tug.org/protext), which combine the TeX distribution & editor (the editor is TeXStudio in this in the case of proTeXt)
 
-1) It's free! Not everyone can afford a licence for proprietary word-processing software. By creating your document
-in LaTeX, you reduce a barrier to others using, editing and evolving your work.
+## User Guide
 
-2) It gives you complete control over your document's format.
+1. Ensure that the pre-requisites are installed.
+1. Run the .tex file using your LaTeX editor. This will allow you to make edits & to write your content.
+1. When including images, it's best to use vector images since they scale without becoming pixelated. Create your image in LibreOffice Impress or Microsoft Powerpoint, export it to PDF, and importantly (!) crop the PDF to remove surrounding whitespace. Save the cropped PDF in your Images folder and refer to it from your LaTeX source code. If you're using Powerpoint, make sure to right-click your slide, select Format Background and tick 'Hide background graphics' to prevent your image backgrounds having a grey-fill. As of May 2016, www.sejda.com/crop-pdf & www.pdfescape.com both offer an online PDF cropping service.
+1. Ensure that library file is within the 'BibTeX_Libraries' folder, & that this folder resides in the same directory as the .tex file you're compiling. Reference management software such as Mendeley, www.mendeley.com, can automatically generate this .bib file for you. Make sure not include any whitepace in the name of this .bib file, or else your references won't be defined in your LaTeX document.
+1. To compile for the first time, run/compile your LaTeX source code by running PDFLaTeX ('PDFLaTeX' dropdown adjacent to Texmaker's Run command) in order to create the .aux file. Other files will also be created in the same folder as your .tex file.
+1. Now create the .bbl (reference) file by running BibTeX ('BibTeX' dropdown adjacent to Texmaker's Run command). The previous step - the creation of the .aux file - is a pre-requisite to this step.
+1. Compile your LaTeX source code by running PDFLaTeX again. Display your PDF document by opening the file directly from the same directory as your .tex file, or by using the "View PDF" button in Texmaker to view it in an adjacent window to your source code.
+1. If at first your PDF doesn't update.. build again.
 
-3) You might prefer the command-based environment.
+## Author
 
-4) For very large documents, it may be more responsive than other word-procesing programs. I haven't yet tested 
-this, so let me know :)
+Ian Campbell | [Github] (www.github.com/icampbell1) | [Twitter] (www.twitter.com/@Ian_Campbell1)
 
-Happy writing!
+## Licensing
 
-Documentation
------------
-Pre-requisites:
-- An installed TeX distribution, e.g. MiKTeX (www.miktex.org) or 
-  TeX Live (www.tug.org/texlive)
-- A LaTeX editor, such as Texmaker (www.xm1math.net/texmaker)
-- Note that combined intallation packages exist, e.g. proTeXt, which combine
-  the TeX distribution & editor (the editor is TeXStudio in this in the case of proTeXt) (www.tug.org/protext)
+As with all of the code I publish on this account, this software is free software, licensed under the short, permissive [MIT Licence] (www.choosealicense.com/licenses/mit). Under this licence, you're free to do whatever you like with the software as long as you acknowledge me as the author, and don't hold me liable if it all goes horribly wrong.
 
-User Guide:
+## Feedback & improvements
 
-1) Ensure the pre-requisites are installed.
+Code pull requests and/or e-mail are very welcome!
 
-2) Run the .tex file using your LaTeX editor. This will allow you to make edits & to write your content.
+## Related Resources
 
-3) When including images, it's best to use vector images since they scale without becoming pixelated. Create your image in LibreOffice Impress or Microsoft Powerpoint, export it to PDF, and importantly (!) crop the PDF to remove surrounding whitespace. Save the cropped PDF in your Images folder and refer to it from your LaTeX source code. If you're using Powerpoint, make sure to right-click your slide, select Format Background and tick 'Hide background graphics' to prevent your image backgrounds having a grey-fill. As of May 2016, www.sejda.com/crop-pdf & www.pdfescape.com both offer an online PDF cropping service.
-
-4) Ensure that library file is within the 'BibTeX_Libraries' folder, & that this folder resides in the same directory as the .tex file you're compiling. Reference management software such as Mendeley, www.mendeley.com, can automatically generate this .bib file for you. Make sure not include any whitepace in the name of this .bib file, or else your references won't be defined in your LaTeX document.
-
-5) To compile for the first time, run/compile your LaTeX source code by running PDFLaTeX ('PDFLaTeX' dropdown adjacent to Texmaker's Run command) in order to create the .aux file. Other files will also be created in the same folder as your .tex file.
-
-6) Now create the .bbl (reference) file by running BibTeX ('BibTeX' dropdown adjacent to Texmaker's Run command). The previous step - the creation of the .aux file - is a pre-requisite to this step.
-
-7) Compile your LaTeX source code by running PDFLaTeX again. Display your PDF document by opening the file directly from the same directory as your .tex file, or by using the "View PDF" button in Texmaker to view it in an adjacent window to your source code.
-
-8) If at first your PDF doesn't update.. build again.
-
-Related Resources
------------
-- www.ctan.org for package descriptions
-- www.miktex.org - Windows TeX distribution
-- www.tug.org/protext - a MiKTeX-based TeX distribution for Windows, including an editor
-- www.xm1math.net/texmaker - a TeX editor
-- www.texstudio.org - an alternative TeX editor
-- www.libreoffice.org/discover/impress - Useful free tool for creating vector images in PDF format
-- https://products.office.com/en-gb/powerpoint - Useful tool for creating vector images in PDF format
+* [CTAN] (www.ctan.org) - for LaTeX package descriptions
+* [MiKTeX] (www.miktex.org) - Windows TeX distribution
+* [proTeXt] (www.tug.org/protext) - a MiKTeX-based TeX distribution for Windows, including an editor
+* [Texmaker] (www.xm1math.net/texmaker) - a TeX editor
+* [TeXstudio] (www.texstudio.org) - an alternative TeX editor
+* [LibreOffice] (www.libreoffice.org/discover/impress) - for creating vector images in PDF format
+* Microsoft Powerpoint (https://products.office.com/en-gb/powerpoint) - for creating vector images in PDF format
 
