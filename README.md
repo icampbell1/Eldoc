@@ -2,9 +2,9 @@
 
 Eldoc is a **document template** for producing clean, elegant reports. Built with the [LaTeX] (www.latex-project.org) typesetting system, it's highly-configurable and doesn't require proprietary text-editing software.
 
-![Eldoc Screenshot](http://i.imgur.com/g1nNf0I.png)
+![Eldoc Screenshot](http://i.imgur.com/1saOy97.png)
 
-## Why use it?
+## Why Use It?
 
 The high-quality presentation of reports is paramount, regardless of what content you're providing. LaTeX provides a powerful system in which to create high-quality reports,
 but getting started with the typesetting system can be slow and confusing. This template solves that problem by providing a well-commented framework which you can expand, fill with your own content, 
@@ -35,7 +35,7 @@ Ian Campbell | [Github] (www.github.com/icampbell1) | [Twitter] (www.twitter.com
 
 As with all of the code I publish on this account, this software is free software, licensed under the short, permissive [MIT Licence] (www.choosealicense.com/licenses/mit). Under this licence, you're free to do whatever you like with the software as long as you acknowledge me as the author, and don't hold me liable if it all goes horribly wrong.
 
-## Feedback & improvements
+## Feedback & Improvements
 
 Code pull requests and/or e-mail are very welcome!
 
@@ -47,5 +47,5 @@ Code pull requests and/or e-mail are very welcome!
 * [Texmaker] (www.xm1math.net/texmaker) - a TeX editor
 * [TeXstudio] (www.texstudio.org) - an alternative TeX editor
 * [LibreOffice] (www.libreoffice.org/discover/impress) - for creating vector images in PDF format
-* Microsoft Powerpoint (https://products.office.com/en-gb/powerpoint) - for creating vector images in PDF format
+* [Powerpoint] (https://products.office.com/en-gb/powerpoint) - for creating vector images in PDF format
 
