@@ -33,7 +33,7 @@ Ian Campbell | [LinkedIn] (https://uk.linkedin.com/in/icampbell1) | [Twitter] (h
 
 ## Licensing
 
-As with all of the code I publish on this account, this software is free software, licensed under the short, permissive [MIT Licence] (http://www.choosealicense.com/licenses/mit). Under this licence, you're free to do whatever you like with the software as long as you acknowledge me as the author, and don't hold me liable if it all goes horribly wrong.
+Eldoc is free software, licensed under the short, permissive [MIT Licence] (http://www.choosealicense.com/licenses/mit). Under this licence, you're free to do whatever you like with the software as long as you acknowledge me as the author, and don't hold me liable if it all goes horribly wrong.
 
 ## Feedback & Improvements
 
