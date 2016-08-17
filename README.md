@@ -1,6 +1,7 @@
 # Eldoc
 
-[![MIT Licence](https://badges.frapsoft.com/os/mit/mit.png?v=103)](https://opensource.org/licenses/mit-license.php)
+[![Licence: MIT](https://img.shields.io/badge/Licence-MIT-blue.svg)](https://opensource.org/licenses/mit-license.php)
+[![Language: TeX](https://img.shields.io/badge/Language-TeX-brightgreen.svg)](https://www.latex-project.org/)
 
 Eldoc is a **document template** for producing clean, elegant reports. Built with the [LaTeX] (http://www.latex-project.org) typesetting system, it's highly-configurable and doesn't require proprietary text-editing software.
 
